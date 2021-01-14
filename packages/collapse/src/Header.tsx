@@ -73,19 +73,19 @@ const Header = ({
 
   return (
     <div className={componentClassName} role="tab" id={id}>
-      <h3 className="af-accordion__item-title" role="intera">
-        <span className={chevronClassName} />
-        <a
-          className="af-accordion__item-toggle"
-          data-toggle="collapse"
-          href={href}
-          aria-expanded={collapse}
-          aria-controls={ariaControls}
-          onClick={onToggleEvent}
-          onKeyDown={onKeyToggle}>
+      <a
+        className="af-accordion__item-toggle"
+        data-toggle="collapse"
+        href={href}
+        aria-expanded={collapse}
+        aria-controls={ariaControls}
+        onClick={onToggleEvent}
+        onKeyDown={onKeyToggle}>
+        <h3 className="af-accordion__item-title" role="intera">
+          <span className={chevronClassName} />
           {children}
-        </a>
-      </h3>
+        </h3>
+      </a>
     </div>
   );
 };
