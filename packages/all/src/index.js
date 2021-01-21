@@ -95,12 +95,7 @@ export {
 } from '@axa-fr/react-toolkit-layout-header';
 export { Items, Pager, Paging } from '@axa-fr/react-toolkit-table';
 export { default as Table } from '@axa-fr/react-toolkit-table';
-export {
-  CollapseCard,
-  CollapseCardBase,
-  Accordion,
-  AccordionBase,
-} from '@axa-fr/react-toolkit-collapse';
+export { CollapseCard, Accordion } from '@axa-fr/react-toolkit-collapse';
 export { default as Loader } from '@axa-fr/react-toolkit-loader';
 export { LoaderModes } from '@axa-fr/react-toolkit-loader';
 export { default as HelpButton } from '@axa-fr/react-toolkit-help';
